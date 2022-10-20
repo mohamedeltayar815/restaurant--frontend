@@ -1,0 +1,240 @@
+/* #D94D32 redColor */
+/* #283734  mainColor */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#283734 ;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    margin-bottom: 7%;
+    background-color:#283734 ;
+    position: fixed;
+    padding-top: 10px;
+    opacity: 0.9;
+
+
+}
+
+nav ul{
+    width: 45vw;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+
+}
+nav ul li a:hover{
+background-color: white;
+color: #D94D32;
+}
+nav button{
+    word-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    border: white 3px solid;
+    border-radius: 4px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+nav button a{
+    word-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+}
+nav button:hover{
+    background-color:#d94d324a;
+
+}
+#logo{
+    color:#D94D32 ;
+    font-size: 48px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+#landing{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#landing img{
+    width: 60%;
+}
+
+
+#about{
+    margin-top: 5%;
+    padding-left:10% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#aboutcard{
+    display: block;
+    color: white;
+    width: 25%;
+
+
+}
+#aboutPic{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    width: 100%;
+    height: 900px;
+
+}
+
+#aboutPic #firest{
+    grid-column: 1/5;
+    grid-row: 1/3;
+}
+#firest img{
+    width: 100%;
+    height: 100%;
+}
+#scond img{
+    width: 100%;
+    height: 100%;
+}
+#aboutPic #scond{
+
+    grid-column: 4/11;
+    grid-row: 2/6;
+}
+
+#menus{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+#dishFilter h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: initial;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+    margin: 10px 0px;
+}
+#dishFilter button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+#dishFilter .active{
+    border-bottom: solid 2px;
+}
+.menusTab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+
+.card{
+    width: 37vw;
+    margin-top: 3vw;
+    margin-right: 3vw;
+    margin-left: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card img{
+    width: 37vw;
+
+
+}
+#allMenuDownloud{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+#allMenuDownloud button{
+    word-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    border: white 3px solid;
+    border-radius: 4px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+
+
+}
+#allMenuDownloud h3{
+    margin: 20px 0px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+
+
+}
+
+#reserve{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background-color: white;
+    width: 78%;
+    margin-left: 10%;
+    margin-top: 80px;
+    height: 300px;
+
+}
+#reservecont{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#reserveInbuts{
+    grid-column: 2/4;
+    background-color: #283734;
+
+}
