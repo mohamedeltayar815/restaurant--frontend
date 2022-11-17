@@ -15,18 +15,21 @@
 <body>
 <nav>
     <div id="logo" >rose</div>
-    <div>
+    <svg xmlns="http://www.w3.org/2000/svg"  fill="white" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+    <div class="optins ">
         <ul>
             <li><a href="#landing">home</a></li>
             <li><a href="#about">contact</a></li>
             <li><a href="#menus">menu</a></li>
         </ul>
+        <button><a href="#reserve">reserveition</a></button>
     </div>
-    <button><a href="#reserve">reserveition</a></button>
 
 
 </nav>
-<section id="landing" class="landing"><img src="images/Untitled.png" alt=""></section>
+<section id="landing" class="landing"><img src="images/[Downloader.la]-636d5a5bc392f.jpg" alt=""></section>
 <section id="about" class="about">
    
    <div id="aboutcard">
@@ -37,11 +40,11 @@
     </div> 
     <div id="aboutPic">
         <div id="scond">
-            <img src="images/Unt4itl12561d.png" alt="">
+            <!-- <img src="images/pexels-michael-burrows-7129459.jpg" alt=""> -->
 
         </div>
         <div id="firest">
-            <img src="images/Untitl21d.png" alt="">
+            <!-- <img src="images/pexels-chevanon-photography-302899.jpg" alt=""> -->
 
         </div>
 
@@ -62,22 +65,22 @@
     <div class="menusTab">
 
         <div class="card">
-            <img src="images/Untitl121d.png" alt="">
+            <img src="images/pexels-abhinav-goswami-291528.jpg" alt="">
             <h3>dish name</h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
         <div class="card">
-            <img src="images/Untitl2d.png" alt="">
+            <img src="images/pexels-majo-pip-4617831.jpg" alt="">
             <h3>dish name</h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
         <div class="card">
-            <img src="images/Unt4itl1251d.png" alt="">
+            <img src="images/pexels-farhad-ibrahimzade-8696559.jpg" alt="">
             <h3>dish name</h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
         <div class="card">
-            <img src="images/Unt4itl121d.png" alt="">
+            <img src="images/pexels-farhad-ibrahimzade-8697543.jpg" alt="">
             <h3>dish name</h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
@@ -92,38 +95,42 @@
 
 
 </section>
-<section id="reserve" class="reserve">
+<section id="reserve" class="">
         <div id="reservecont">
             <h3>reserve a table</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquid animi quasi optio dignissimos qui expedita accusamus. Id blanditiis nesciunt repellat incidunt facere, nemo alias quam officiis dolorum vero optio?</p>
 
         </div>
         <div id="reserveInbuts">
-            <input type="text" name="" id="" placeholder="full Name">
-            <input type="date" name="" id="">
-            <input type="text" name="" id="">
-            <input type="datetime" name="" id="">
-            <input type="text" name="" id="">
-            <input type="number" name="" id="">
-            <input type="submit" value="">
-            <span></span>
+            <input type="text" name="" id="fullName" placeholder="full Name">
+            <input type="date" name="" id="date" placeholder="date">
+            <input type="time" name="" id="fromTime" placeholder="fromTime">
+            <input type="time" name="" id="toTime" placeholder="toTime">
+            <input type="text" name="" id="fullOrder" placeholder="fullOrder">
+            <input type="number" name="" id="numberOfChair" placeholder="numberOfChair">
+            <button id="submit">submit</button>
         </div>
 
 </section>
 
 <footer>
-    <div></div>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <button> <a href="#reserve">reserve</a></button>
+    
+    <div class="footer">
+
+        <div><img src="images/55722970.png" alt=""></div>
+        <div class="availableTime"><span>from 10 am to 12pm</span></div>
+        <div class="links">
+            <ul>
+                <li><a href="#landing">home</a></li>
+                <li><a href="#menus">menu</a></li>
+            </ul>
+        </div>
+        <button> <a href="#reserve">reserve</a></button>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45020.287913530614!2d30.909489554739505!3d30.31675285029397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145889d7eb407335%3A0xecdf9b37632d6216!2zMzDCsDE5JzE2LjkiTiAzMMKwNTMnNDAuMSJF!5e0!3m2!1sen!2seg!4v1668193022305!5m2!1sen!2seg" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="copyrights"><span>dev by M.F.T</span></div>
 </footer>
 
 <script src='js/main.js'></script>
